@@ -1,6 +1,5 @@
 "use client";
 
-import { Navigation } from "@/components/ui/navigation";
 import { Hero } from "@/components/ui/hero";
 import { SkillsGrid } from "@/components/ui/skills-grid";
 import { AuroraBackground } from "@/components/ui/aurora-background";
@@ -8,7 +7,6 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 export default function Home() {
     return (
         <AuroraBackground>
-            <Navigation />
             <main className="pt-16">
                 <Hero />
                 <section className="py-20">

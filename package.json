@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-use-controllable-state": "^1.2.2",
     "@types/node": "20.11.30",
     "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.23.5",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.23.6",
     "lucide-react": "^0.358.0",
     "next": "^14.2.30",
     "react": "18.2.0",

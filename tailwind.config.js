@@ -23,6 +23,11 @@ module.exports = {
                     DEFAULT: "hsl(var(--secondary))",
                     foreground: "hsl(var(--secondary-foreground))",
                 },
+                sky: colors.sky, // renamed from lightBlue
+                stone: colors.stone, // renamed from warmGray
+                neutral: colors.neutral, // renamed from trueGray
+                gray: colors.gray, // renamed from coolGray
+                slate: colors.slate, // renamed from blueGray
                 ...colors,
             },
             backgroundImage: {
